@@ -1,0 +1,15 @@
+Django>=4.2,<4.3
+
+
+# Herramientas para desarrollo
+django-debug-toolbar>=3.8,<4.0  # Herramienta para depurar
+djangorestframework>=3.14,<3.15  # Para construir APIs REST
+django-environ>=0.9.0,<0.10  # Para manejar variables de entorno
+django-cors-headers
+coreapi
+Pillow
+setuptools
+
+
+# Base de datos (opcional, elige según tu necesidad)
+psycopg2-binary>=2.9,<3.0  # Para PostgreSQL
